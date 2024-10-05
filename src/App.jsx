@@ -135,7 +135,6 @@ function App() {
     <Layout>
       <Box className="flex justify-between p-4">
         <CreateProposalModal />
-        <h2> Help Fund Contract at : {contractAddress} </h2>
         <h2>Contract Balance: {contractBalance} ETH</h2>
       </Box>
       <Proposals proposals={proposals} />
